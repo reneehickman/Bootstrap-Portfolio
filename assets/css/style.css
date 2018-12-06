@@ -1,25 +1,40 @@
 html {
-    position: relative;
-    min-height: 100vh;
+    font-size: 1rem;
   }
-  body {
-    margin-bottom: 115px; /* Margin bottom by footer height */
+body {
+    height:100%; /* Margin bottom by footer height */
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#777;
+    width:100%;
   }
 
+h1{
+    background:#4aaaa5;
+    font-family:'Georgia', 'Times New Roman', Times, serif, serif;
+    font-size:1.6em;
+    
+}
 
-.header{
+h2{
+    font-family:'Georgia', 'Times New Roman', Times, serif, serif;
+    color:#4aaaa5;
+    font-size:1.5em;
+    
+}
+
+#header {
     border-bottom:2px solid #ccc;
+    background:#4aaaa5;
 }
 
 
-.footer p{
-    text-align:center;
+p{
+    line-height:200%;
 }
+
 
 
 .footer {
-    position: absolute;
-    bottom: 0;
     width: 100%;
     height: 90px; /* Set the fixed height of the footer here */
     line-height: 60px; /* Vertically center the text there */
@@ -27,11 +42,109 @@ html {
     border-top:10px solid #4aaaa5;
   }
 
+.contentBackground{
+    background:url("../images/qbkls.png");
+    background-repeat:repeat;
+    height:100%;
+}
+
+.contentRow{
+    border:1px solid #ddd;
+}
+
+.headerText{
+    background:#4aaaa5;
+}
+
+.aboutMe{
+    border-bottom: 2px solid #ddd;
+}
+
+
+#aboutPicture{
+   
+    width:100%;
+}
+
+
+#navAbout, #navPortfolio, #navContact{
+    background:#fff;
+    border-bottom:1px solid #ddd;
+    
+}
 
 
 
 
+ #navHeader a:hover{
+    background:#4aaaa5;
+    color:#fff;
+
+ }
 
 
 
+@media (min-width:576px) { 
+    #header{
+        background:#fff;
+    }
+
+
+    #navHeader{
+        max-width:1140px;
+    }
+
+   button .collapseButton{
+        background:#4aaaa5;
+     }
+
+     .navbar-toggler{
+         background:#4aaaa5;
+     }
+ }
+
+
+ @media (min-width:576px) and (max-width: 767.98px) {
+    #navHeader{
+        max-width:540px;
+    }
+
+    #aboutPicture{
+   
+        width:100%;
+    }
+ }
+
+ @media (min-width:768px) and (max-width: 991.98px) {
+    #navHeader{
+        max-width:718px;
+    }
+
+    #aboutPicture{
+   
+        float:left;
+        width:40%;
+    }
+
+    #navAbout, #navPortfolio, #navContact{
+    background:#fff;
+}
+    
+ }
+
+ @media (min-width:992px) and (max-width: 1199.98px) {
+    #navHeader{
+        max-width:958px;
+    }
+
+    #aboutPicture{
+        width: 35%;
+    }
+ }
+
+@media (min-width:1200px){
+    #aboutPicture{
+        width:25%;
+    }
+}
 
