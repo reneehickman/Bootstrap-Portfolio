@@ -3,7 +3,7 @@
     font-size:1.2em;
     position: relative;
     min-height: 100%;
-    min-width:434px;
+    min-width:100%;
   }
   body {
     margin-bottom: 90px; /* Margin bottom by footer height */
@@ -36,14 +36,14 @@
 h1{
     background:#4aaaa5;
     font-family:'Georgia', 'Times New Roman', Times, serif, serif;
-    font-size:1.4em;
+    font-size:1.35em;
     
 }
 
 h2{
     font-family:'Georgia', 'Times New Roman', Times, serif, serif;
     color:#4aaaa5;
-    font-size:1.5em;
+    font-size:1.35em;
     
 }
 
@@ -64,6 +64,8 @@ p{
 
 .headerText{
     background:#4aaaa5;
+    padding:25px;
+    margin-right:0px;
 }
 
 .aboutMe{
@@ -281,6 +283,10 @@ p{
         background:#fff
         }
 
+        .headerText{
+            padding-left:15px;
+        } 
+
 
 }
 
@@ -295,4 +301,5 @@ p{
         .navbar-light .navbar-nav .nav-link{
             background:#fff;
         }
+  
 }
