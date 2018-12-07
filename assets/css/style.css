@@ -85,13 +85,8 @@ p{
 }
 
 .navbar-nav{
-    .show > .nav-link,
-        .active > .nav-link,
-        .nav-link.show,
-        .nav-link.active {
-            background:#f1f1f1;
-            color:#4aaaa5;
-        }
+        background:#f1f1f1;
+        color:#4aaaa5;
     }
 
     .picRow{
@@ -158,9 +153,16 @@ p{
         padding-right:20px;
         }
 
+    .contentRow{
+        padding:48px;
+        }
+
+    .navbar-nav{
+        background:#fff; 
+        }
+
     }
 
- }
 
 
  @media (min-width:576px) and (max-width: 767.98px) {
@@ -187,7 +189,7 @@ p{
     #aboutPicture{
         float:left;
         width:40%;
-        margin-top:5px;
+        margin-top:3px;
         padding-bottom:0px;   
     }
 
@@ -284,9 +286,13 @@ p{
         }
 
         .headerText{
-            padding-left:15px;
+            padding-left:20px;
             padding-right:0px;
         } 
+
+        .contentRow{
+            padding:25px;
+        }
 
 
 }
