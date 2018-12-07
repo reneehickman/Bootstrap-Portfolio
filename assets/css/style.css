@@ -1,6 +1,6 @@
 
   html {
-    font-size:1.2em;
+    font-size:1.0em;
     position: relative;
     min-height: 100%;
     min-width:100%;
@@ -186,8 +186,8 @@ p{
 
     #aboutPicture{
         float:left;
-        width:45%;
-        margin-top:3px;
+        width:40%;
+        margin-top:5px;
         padding-bottom:0px;   
     }
 
@@ -211,7 +211,7 @@ p{
         }
 
     #aboutPicture{
-        width: 30%;
+        width: 25%;
         margin-top:2px;
         }
 
@@ -228,7 +228,7 @@ p{
 
 @media (min-width:1200px){
     #aboutPicture{
-        width:25%;
+        width:24%;
         }
 
     #navAbout, #navPortfolio, #navContact{
