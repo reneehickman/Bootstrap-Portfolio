@@ -31,12 +31,10 @@
 }
 
 
-
-
 h1{
     background:#4aaaa5;
     font-family:'Georgia', 'Times New Roman', Times, serif, serif;
-    font-size:1.35em;
+    font-size:1.5em;
     
 }
 
@@ -75,7 +73,7 @@ p{
 
 #aboutPicture{
     width:100%;
-    padding-bottom:5px;
+    padding:8px 16px 5px 0px;
 }
 
 #navAbout,
@@ -89,32 +87,45 @@ p{
         color:#4aaaa5;
     }
 
-    .picRow{
-        font-family: 'Georgia', 'Times New Roman', Times, serif, serif;
-        color:#fff;
-        background:#4aaaa5;
-        /* padding:20px; */
-        position:relative;
-        top: -70px;
-        max-width: 400px;
-        margin-left:0px;
-        margin-right:0px;
-        padding-top:15px;
-        padding-bottom:15px;
-    }
 
-    .picRow h3{
-        font-size:1.2em;
-        text-align:center;
-        margin:0px auto;
-    }
+.textRow{
+     position:relative;
+     top: -80px;
+     text-align:center;
+     display:inline-block;
+
+ }   
+
+ .containerImg a{
+     background:#4aaaa5;
+     width:100%;
+ }
+
+.containerImg{
+    max-width:400px;
+    margin:0px auto;
+}
+
+.textRow h3{
+    font-size:1.35em;
+    font-family: 'Georgia', 'Times New Roman', Times, serif, serif;
+    text-align:center;
+    margin:0px auto;
+    color:#fff;
+    width:100%;
+    padding:20px;
+}
 
 
-    .picRow:hover{
-        background:#ddd;
-        color:#777;
-        text-decoration:none;
-    }
+.textRow:hover{
+    background:#ddd;
+    color:#777;
+    text-decoration:none;
+}
+
+.textRow h3:hover{
+    color:#777;
+}
 
 #messageBox{
     min-height:200px;
@@ -188,7 +199,7 @@ p{
 
     #aboutPicture{
         float:left;
-        width:40%;
+        width:45%;
         margin-top:3px;
         padding-bottom:0px;   
     }
@@ -202,6 +213,14 @@ p{
             background:#fff;
         }
 
+        html {
+            font-size:1.05em;
+        }
+
+        .contentRow{
+            padding:30px;
+        }
+
     }
 
     
@@ -213,8 +232,8 @@ p{
         }
 
     #aboutPicture{
-        width: 25%;
-        margin-top:2px;
+        width: 35%;
+        margin-top:3px;
         }
 
     #navAbout, #navPortfolio, #navContact{
@@ -224,6 +243,7 @@ p{
         #header {
             background:#fff;
         }
+
 
     
  }
@@ -241,10 +261,6 @@ p{
             background:#fff;
         }
 
-
-        .portfolioCol{
-            margin-left:-50px;
-        }
 }
 
 
@@ -292,6 +308,15 @@ p{
 
         .contentRow{
             padding:25px;
+        }
+
+        #aboutPicture{
+            padding:0px 0px 5px 0px;       
+        }
+
+
+        html {
+            font-size:1.1em;
         }
 
 
